@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Bali, Indonesia",
+        "description": "La isla de Bali, en Indonesia, es la número uno. ¿Por qué será? Es posible que sean las playas de arena blanca como Lovina Beach, el verde intenso de sus selvas en el Parque Nacional de Bali Occidental, los antiguos templos (más de 10.000) o los diferentes senderos para hacer excursionismo. Alquila una moto para moverte por la isla: no dejes de ir al templo Tanah Lot para ver atardecer, piérdete por los arrozales de Jatiluwih o en Tegalalang, escoge playa o lago, visita algún volcán o, incluso, aprovecha para casarte ¡Bali es la isla de los dioses!",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/bali-indonesia_5ae3dbfe.jpg",
+        "map_lat": -8.4560181,
+        "map_long": 115.2703855
+    },
+    {
+        "id": 2,
+        "name": "Londres, Gran Bretaña",
+        "description": "Aunque circulen por la izquierda y midan las distancias en millas y yardas, Londres es la más popular de las ciudades del mundo. Historia y carácter, monumentos que son verdaderos iconos como el Big Ben o los mismísimos taxis tradicionales son ingredientes para una escapada perfecta. Hay de todo para todos: el arte de la Tate Modern, las tendencias de moda de más rabiosa actualidad por sus calles, los mercadillos como el de Camden, los diferentes parques por donde caminar. Sube a la London Eye, Londres solo se puede abarcar desde las alturas.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/londres_b72fb870.jpg",
+        "map_lat": 51.5073,
+        "map_long": -0.1276470000000245
+    },
+    {
+        "id": 3,
+        "name": "París, Francia",
+        "description": "Podría ocupar la primera posición entra las ciudades más populares del mundo; pero esta vez, París, se ha quedado en la tercera posición. La ciudad de la luz, del amor, la ciudad de la literatura, está llena de atracciones suficientes para una vida. Es la única ciudad que tiene dos lugares entre los diez de mayor interés turístico de Europa: la Torre Eiffel y Notre Dame. Pero, ¿qué más? Toda una clase de arte en el Museo del Louvre, callejear por sus barrios como Marais o el Barrio latino, disfrutar de la gastronomía en algunos de sus bistro, pasear por la rivera del Sena o visitar el mundo de Amélie Poulain, ¡París no se acaba nunca!",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/paris_fa5c2ffd.jpg",
+        "map_lat": 48.8546,
+        "map_long": 2.3477100000000064
+    },
+    {
+        "id": 4,
+        "name": "Roma, Italia",
+        "description": "La ciudad eterna es una lección de Historia para cualquier viajero. Además, ¿quién no ha sentido la necesidad de viajar a Roma después de ver alguna película clásica de Fellini? ¿O quién no ha querido recorrer la ciudad en Vespa como en Vacaciones en Roma? Hay tanto que hacer en Roma: ir hasta el centro del Imperio Romano, ver el Coliseo y todas las ruinas arqueológicas, el Panteón, cruzar El puente Sant'Angelo, Plaza España, dejarse maravillar con las obras de arte de los Museos del Vaticano. La Basílica de San Pedro del Vaticano, además, es la atracción turística más popular de todas en Europa.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/roma_2d72ff93.jpg",
+        "map_lat": 41.894802,
+        "map_long": 12.4853384
+    },
+    {
+        "id": 5,
+        "name": "Nueva York, Estados Unidos",
+        "description": "Si hay una idea universal de ciudad, esa es la que encarna Nueva York. La hemos visto tantas veces en películas, que cuando se visita por primera vez parece que andas de escena en escena. Esta ciudad es inabarcable y tiene tantas caras que harían falta diferentes vidas para decir que se conoce bien. Pasear por Central Park en otoño o primavera, ir al MoMA, la cuna del arte moderno, ver la Estatua de la Libertad, los rascacielos míticos como el Empire State Building, cruzar el Puente de Brooklyn, Little Italy, Coney Island, es solo una pequeña parte de todo lo que puedes hacer en Nueva York.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/nueva-york_66d209da.jpg",
+        "map_lat": 40.7308619,
+        "map_long": -73.9871558
+    },
+    {
+        "id": 6,
+        "name": "Creta, Grecia",
+        "description": "Historia y playas con encanto son las razones principales para que muchos viajeros consideren esta isla de Grecia, la quinta de mayor tamaño en el Mar Mediterráneo, como uno de los destinos más populares del mundo. Creta fue cuna del dios Zeus y origen de la civilización minoica, la más antigua que se conoce en Europa. En la antigüedad se llamaba “isla de los olivos” y hoy aún mantiene un gran número, lo cual hace de su paisaje una auténtica belleza rematada por playas como las de Elafonisis y Kechodassos.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/crreta_00e27614.jpg",
+        "map_lat": 35.2788061,
+        "map_long": 24.9342885
+    },
+    {
+        "id": 7,
+        "name": "Barcelona, España",
+        "description": "La ciudad del Mediterráneo da la bienvenida a viajeros de todo el mundo que llegan hechizados por las formas sorprendentes de la arquitectura de Gaudí, por las calles animadas como las Ramblas, los museos variados, las tendencias más urbanitas, exposiciones, bares y restaurantes a la última. Barcelona es una ciudad cosmopolita pero aún se puede pasear como si se tratara de un pueblo, con la personalidad diferente de cada uno de sus barrios. La Sagrada Familia, el ambiente popular del Mercado de la Boquería, el Gótic, el Raval, el ambiente cultural de Gràcia, son sólo algunos imprescindibles.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/bali-indonesia_5ae3dbfe.jpg",
+        "map_lat": 41.3828939,
+        "map_long": 2.1774322
+    },
+    {
+        "id": 8,
+        "name": "Siem Reap, Camboya",
+        "description": "Son muchos los viajeros que coinciden en decir que en esta ciudad de Camboya, en la provincia de Siem Riep, se ven algunos de los mejores amaneceres del mundo. Si a ello le sumamos las ancestrales ruinas de los templos de Angkor Wat, tendremos dos de las principales razones por las cuales Siem Reap está entre los 25 destinos más populares del mundo. El templo de Banteay Srei, junto a la selva, los palafitos del lago Tonlé Sap y el mercado nocturno de Siem Reap te va a transportar al origen de una cultura fabulosa que sigue dejando atrás las atrocidades del régimen de Pol Pot y sus jemeres rojos.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/siem-reap_4b200b19.jpg",
+        "map_lat": 13.3617562,
+        "map_long": 103.8590321
+    },
+    {
+        "id": 9,
+        "name": "Praga, República Checa",
+        "description": "Esta ciudad es un clásico de Europa. A la vez en ella se encuentra el ambiente bohemio de una ciudad moderna y el mágico de un cuento de hadas. Praga es perfecta para una escapada de fin de semana en pareja o con amigos; pero también un lugar idóneo para pasar unas vacaciones largas. Este es un destino en el que no te vas a quedar nunca sin hora, porque tiene el famoso reloj astronómico, toda una maravilla tanto artística como tecnológica, justo en el corazón histórico de la capital checa. Un plan imprescindible es pasear por las callejuelas de Staré Mesto, la Ciudad vieja y cruzar en el atardecer el Puente Carlos con sus treinta estatuas que parecen vigilar a los artistas, músicos y paseantes.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/praga_efedffee.jpg",
+        "map_lat": 50.0875,
+        "map_long": 14.421299999999974
+    },
+    {
+        "id": 10,
+        "name": "Phuket, Tailandia",
+        "description": "Muchos viajeros coinciden: Tailandia es el mejor destino para comenzar a conocer Asia. Entonces, Phuket es el principio. La isla más grande de Tailandia tiene playas de ensueño como las de Patong y Karon Beach, siempre muy visitadas, o las más aisladas como Surin Beach. En la zona de Chalong y Kata, está el símbolo principal de la isla, un Gran Buda blanco de 25 metros de altura que nos da unas vistas asombrosas de Phuket. Otro entretenimiento es pasearse por el animado centro histórico de la ciudad como contraste a las aguas color esmeralda que rodean a la isla.",
+        "image_url": "https://www.nationalgeographic.com.es/medio/2017/04/24/phuket_b973ead8.jpg",
+        "map_lat": 7.715984,
+        "map_long": 98.3221264
+    }
+]
