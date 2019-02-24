@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.taller1_recyclerviewmapview.Models.Place;
 import com.example.taller1_recyclerviewmapview.R;
 
@@ -35,6 +36,13 @@ public class PlaceAdapter extends RecyclerView.Adapter<PlaceAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
 
         Place place = places.get(i);
+
+        viewHolder.mPlaceName.setText(place.getName());
+
+        //set image with glide
+        Glide.with(context)
+                .load(place.getImage_url())
+                .into(viewHolder.mPlaceImage);
 
     }
 
