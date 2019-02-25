@@ -1,8 +1,9 @@
 package com.example.taller1_recyclerviewmapview.Models;
 
-import java.io.Serializable;
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class Place implements Serializable {
+public class Place implements Parcelable {
 
     private int id;
     private String name;
@@ -10,6 +11,27 @@ public class Place implements Serializable {
     private String image_url;
     private float map_lat;
     private float map_long;
+
+    protected Place(Parcel in) {
+        id = in.readInt();
+        name = in.readString();
+        description = in.readString();
+        image_url = in.readString();
+        map_lat = in.readFloat();
+        map_long = in.readFloat();
+    }
+
+    public static final Creator<Place> CREATOR = new Creator<Place>() {
+        @Override
+        public Place createFromParcel(Parcel in) {
+            return new Place(in);
+        }
+
+        @Override
+        public Place[] newArray(int size) {
+            return new Place[size];
+        }
+    };
 
     public int getId() {
         return id;
@@ -59,4 +81,18 @@ public class Place implements Serializable {
         this.map_long = map_long;
     }
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(id);
+        dest.writeString(name);
+        dest.writeString(description);
+        dest.writeString(image_url);
+        dest.writeFloat(map_lat);
+        dest.writeFloat(map_long);
+    }
 }

@@ -2,7 +2,14 @@ package com.example.taller1_recyclerviewmapview;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toolbar;
 
+import com.bumptech.glide.Glide;
+import com.example.taller1_recyclerviewmapview.Models.Place;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -22,25 +29,50 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        //set support to our actionbar
+        Toolbar mToolBar = findViewById(R.id.mapToolBar);
+        setActionBar(mToolBar);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setDisplayShowHomeEnabled(true);
+
+        //back button
+        mToolBar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
+        mToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MapsActivity.this.finish();
+
+            }
+        });
+
     }
 
-
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        //get parcelable data
+        Place place = getIntent().getParcelableExtra("details");
+
+        // Add a marker in this place and move the camera
+        LatLng latLng = new LatLng(place.getMap_lat(), place.getMap_long());
+        mMap.addMarker(new MarkerOptions().position(latLng).title("Marcador en " + place.getName()));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 8.0f));
+
+        //set place name in the toolbar
+        getActionBar().setTitle(place.getName());
+
+        //set place image
+        ImageView mPlaceImage = findViewById(R.id.placeDetailImage);
+
+        Glide.with(this)
+                .load(place.getImage_url())
+                .into(mPlaceImage);
+
+        //set place description
+        TextView mPlaceDescription = findViewById(R.id.placeDescription);
+        mPlaceDescription.setText(place.getDescription());
+
     }
 }
