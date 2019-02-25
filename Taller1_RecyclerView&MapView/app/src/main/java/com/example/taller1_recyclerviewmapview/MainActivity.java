@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 import com.example.taller1_recyclerviewmapview.Adapters.PlaceAdapter;
 import com.example.taller1_recyclerviewmapview.Models.Place;
@@ -21,10 +22,16 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Toolbar mToolBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //toolbar
+        mToolBar = findViewById(R.id.mainToolBar);
+        setActionBar(mToolBar);
 
         getPlacesFromJson();
 

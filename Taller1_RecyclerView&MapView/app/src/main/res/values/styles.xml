@@ -16,4 +16,13 @@
         <item name="android:text">Place Name</item>
     </style>
 
+    <!-- Toolbar -->
+    <style name="MainToolBar" parent="android:Widget.Toolbar">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:colorAccent">@android:color/black</item>
+        <item name="android:title">@string/app_name</item>
+    </style>
+
 </resources>
